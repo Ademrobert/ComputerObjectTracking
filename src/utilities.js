@@ -9,7 +9,7 @@ export const drawRect = (detections, ctx) =>{
     // Set styling
     const color = Math.floor(Math.random()*16777215).toString(16);
     ctx.strokeStyle = '#' + color
-    ctx.font = '18px Arial';
+    ctx.font = '20px Arial';
 
     // Draw rectangles and text
     ctx.beginPath();
